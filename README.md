@@ -22,7 +22,7 @@ iki kullanim ornegi asagidadir.
 dependencies:
 - name: a-service
   version: "0.0.2"
-  repository: "https://artifactory.turkcell.com.tr/artifactory/local-helm-prod/"
+  repository: "https://artifactory.example.com.tr/artifactory/local-helm-prod/"
 - name: api-gateway
   version: "2024-02-06.16.35"
   repository: "@helm_repo"
