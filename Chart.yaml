@@ -1,0 +1,21 @@
+apiVersion: v2
+name: umbrellaProject
+description: umbrellaProject Umbrella Helm chart for OC
+
+dependencies:
+  - name: a-service
+    version: "2024-10-16.13.48"
+    repository: "https://artifactory.example.com.tr/artifactory/local-helm-prod/"
+  - name: b-service
+    version: "0.0.5"
+    repository: "https://artifactory.example.com.tr/artifactory/local-helm-prod/"
+  - name: api-gateway
+    version: "0.0.3"
+    repository: "https://artifactory.example.com.tr/artifactory/local-helm-prod/"
+  - name: api-gateway
+    version: "2024-02-06.16.35"
+    repository: "@helm_repo"
+
+type: application
+version: 0.0.2
+appVersion: "1.16.0"
